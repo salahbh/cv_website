@@ -1,0 +1,19 @@
+{
+  "name": "cvapp",
+  "version": "1.0.0",
+  "description": "this an information about me",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}

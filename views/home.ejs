@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume Website Template | Home :: w3layouts</title>
+	<script src="public/js/jquery.min.js"> </script>
+	<link href="public/css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="public/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+		<script type="text/javascript" src="public/js/move-top.js"></script>
+		<script type="text/javascript" src="public/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+</head>
+<body>
+
+ <div id="top-top" class="headerbg">
+	
+	   <div class="header">
+		
+			  <div class="container">
+				   <div class="logo">
+						<a href="#">Personal Resume</a>
+				   </div>
+				 
+				  <div class="nav">
+					 <ul>
+						 <li><a class="scroll" href="#about">EDUCATION</a></li>
+						 <li><a class="scroll" href="#skills">SKILLS</a></li>
+						 <li><a class="scroll" href="#port">QUALIFICATIONS</a></li>
+						 <li><a class="scroll" href="#term">TERMINOLOGYS</a></li>
+						 <li><a class="scroll" href="#contact">CONTACT</a></li>
+					 </ul>
+				 </div>
+				
+					<div class="clear"></div>
+			  </div>
+		
+	   </div>
+	
+	   <div class="banner">
+	      <div class="container">
+		     <div class="banner-info">
+			      <div class="bannerlogo">
+					  <img src="public/images/diamond.png">
+			      </div>
+			      <div class="bannerhead">
+				      <h2>My name is <span>Salah Bani Hamad</span></h2><br/>
+				      <h3>Network Engineering & Security</h3>
+				      					  <a class="downarrow scroll" href="#about"><span> </span></a>
+			      </div>
+			 </div>
+			 <div class="clear"></div>
+		  </div>
+	  </div>
+
+ </div>
+ 
+ <div class="content">
+
+	
+	   <div id="about" class="about">
+		 <div class="container">
+			   <div class="header-section text-center">
+				  <h2><span> </span>EDUCATION<span> </span></h2>
+				  </div>
+				
+					 
+			  <div class="years">	 
+				<h4><b>2014</b></h4>
+				 <span><h4>High School</h4></span>
+				 <span><h5>kofr-rakeb..Irbid , Jordan</h5> </span>  
+				 <span><h5>GPA :90%</h5> </span>
+				</div> 
+				
+			  <div class="years">	 		
+				 <h4><b>09/2015 – 05/2019</b></h4>
+				 <span><h4>Jordan University of Science and
+					Technology</h4> </span>
+				 <span><h4>Network Engineering & Security</h4></span>
+				<span>
+					<h4>GPA : 3.2</h4>
+				</span>
+			  </div> 
+					
+			   
+			  </div>
+				 <a class="arrow scroll" href="#skills"><span> </span></a>
+		  </div>
+	  </div>
+	
+	  <div id="skills" class="skills">
+	  <div class="container">
+	     <div class="skills-grids">
+			  <div class="skill-section text-center">
+				  <h2><span> </span>SKILLS<span> </span></h2>
+			  </div>
+					  <div class="services_grids">
+						  <div id="canvas">
+								<div class="skill-grids text-center">
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-3"></div>									
+												 <h3>HTML</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-2"></div>									
+												 <h3>CSS</h3>	
+											 </div>								  
+										</div>
+										
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-1"></div>									
+												 <h3>JAVASCRIPT</h3>	
+											 </div>								  
+										</div>
+
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-4"></div>									
+												 <h3>c++</h3>	
+											 </div>								  
+										</div>
+										
+										<div class="clearfix"> </div>
+										<a class="down scroll" href="#port"><span> </span></a>
+								  </div>
+						   </div>
+					  </div>
+					<!---->
+					 <script type="text/javascript" src="public/js/circles.js"></script>
+								 <script>
+									var colors = [
+											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']
+										];
+									for (var i = 1; i <= 5; i++) {
+										var child = document.getElementById('circles-' + i),
+											percentage = 50 + (i * 10);
+											
+										Circles.create({
+											id:         child.id,
+											percentage: percentage,
+											radius:     50,
+											width:      15,
+											number:   	percentage ,
+											text:       '%',
+											colors:     colors[i - 1]
+										});
+									}
+							
+					</script>
+					
+					<!--/-->
+					
+			 </div>
+			 
+		 </div>
+		   
+	  </div>
+	  </div>
+	
+		 <div id="port" class="about">
+			  <div class="Portfolio-section text-center">
+			      <h2><span> </span>QUALIFICATIONS<span> </span></h2>
+			  </div>
+			  
+                     <h2> Excellent ability to work in a team environment</h2><br/>
+                      <h2>
+						The ability to work under pressure			  </h2><br/>
+
+						<h2>Ability to continue learning for new technologies</h2><br/><br/><br/>
+					 
+						<div class="clear"> 
+						
+					  </div>
+					  <br/><br/><br/>
+					  <a class="portdown scroll" href="#term" ><span> </span></a>
+				  </div>
+
+				  <div id="term" class="about">
+					<div class="Portfolio-section text-center">
+						<h2><span> </span>TERMINOLOGYS<span> </span></h2>
+					</div>
+					
+						   <h2> A good knowledge of routers, firewalls, routing
+							protocols, and switches</h2><br/>
+							<h2>
+								Basic skills in troubleshooting		  </h2><br/>
+								<h2>
+									A good knowledge of Cryptography Algorithms	  </h2><br/>
+							  <h2>Ability to configure new systems and networks</h2><br/><br/>
+							  <a class="portdown scroll" href="#contact" ><span> </span></a>
+							  <div class="clear"> 
+							  
+							</div>
+						</div>
+				  
+				  
+			  </div>
+		 </div>
+  </div>
+
+  <div  id="contact" class="footer">
+      <div class="container">
+	  
+		   <div class="contact-section text-center">
+			  <h2><span> </span>CONTACT<span> </span></h2>
+		  </div>
+		 <div class="row">
+		 
+			 <div class="col-md-6">
+				  <div class="footer-left">
+						<div class="social-icons">
+						   <a href="https://github.com/salahbh"><img src="public/images/github2.png"></a>
+						   <a href="https://www.instagram.com/salah_bani_hamad"><img src="public/images/instagram.png"></a>
+						   <a href="https://web.facebook.com/Salah.Hafez.Banihamad"><img src="public/images/facebook.png"></a><br/>
+						   <br/>
+						   <br/>
+						   <br/>
+						   <a  ><img src="public/images/placeholder.png"><h4>University Street, IRBID ,JORDAN</h4></a><br/>
+						   <a><img src="public/images/mobile-phone.png"><h3>962-796010230</h3></a>
+					   </div>
+			
+				  </div>
+			 </div>
+			  
+			  <div class="col-md-6">
+				  <div class="footer-right">
+				 <div class="form">
+				 <form>
+					 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					 <textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					 <div class="clear"> </div>
+					 <input type="submit" value="SEND"> 
+				 </form>
+				 </div>
+				  </div>
+				  <div class="clear"></div>
+				  
+			  </div>
+		 </div>
+	 </div>
+	 <a class="up scroll" href="#top-top"><span> </span></a>
+	  
+ </div>
+ 
+ </body>
+ </html>
+ 
+   
